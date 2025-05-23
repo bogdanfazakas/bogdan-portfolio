@@ -29,7 +29,6 @@ export default function Home() {
             <li>
               <strong>Fivetech Software</strong> – Co-founder & CTO (Dec 2019 – Present)<br />
               Co-founded a startup awarded with a European grant, developed a live event conference platform, and now focused on delivering software services.<br />
-              <span className="text-sm text-gray-400">Tech stack: TypeScript, Web3.js, Ethers.js, Node.js, React, GraphQL, Next.js, Docker, Blockchain</span>
             </li>
             <li>
               <strong>HyperMedia</strong> – Director of Engineering (Feb 2021 – Present)<br />
@@ -38,6 +37,7 @@ export default function Home() {
             <li>
               <strong>HyperMedia</strong> – Software Developer (Oct 2015 – Jan 2021)<br />
               Developed the company’s proprietary video conferencing tool using Node.js, AngularJS, WebRTC, and Kurento Media Server. Contributed to Java and Swift projects as well.
+              <span className="text-sm text-gray-400">Tech stack: TypeScript, WebRTC, Node.js, AngularJS, MongoDB, Docker, SwiftUI, Java, Spring</span>
             </li>
             <li>
               <strong>HyperMedia</strong> – Intern (Jul 2015 – Oct 2015)<br />
@@ -48,13 +48,13 @@ export default function Home() {
 
         <section>
           <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">🎓 Education</h2>
-          <p><strong>Master’s Degree</strong>, Distributed Systems, Technical University of Cluj-Napoca (2017–2018)</p>
+          <p><strong>Master’s Degree</strong>, Distributed Systems and Computer Networks, Technical University of Cluj-Napoca (2017–2019)</p>
           <p><strong>Bachelor’s Degree</strong>, Computer Science, Technical University of Cluj-Napoca (2013–2017)</p>
         </section>
 
         <section>
           <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">🛠️ Skills & Tech</h2>
-          <p>Typescript, Node.js, React, GraphQL, Docker, Blockchain, Web3.js, Ethers.js, Next.js</p>
+          <p>Typescript, Node.js, React, GraphQL, Docker, Blockchain, Web3.js, Ethers.js, Next.js, WebRTC, Kurento, Ethers.js</p>
         </section>
 
         <section>
