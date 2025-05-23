@@ -22,19 +22,26 @@ export default function Home() {
           <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">💼 Work Experience</h2>
           <ul className="space-y-4">
             <li>
-              <strong>Ocean Protocol</strong> – Full Stack JavaScript Engineer (Dec 2020 – Present)
-              <p className="text-sm text-gray-400">Typescript, Web3.js, Node.js, React, Docker</p>
+              <strong>Ocean Protocol</strong> – Full Stack JavaScript Engineer (Dec 2020 – Present)<br />
+              Supporting developers in building DApps on the Ocean Protocol stack, developing and maintaining Ocean's data marketplace, Ocean Nodes, ocean.js, and oceancli.<br />
+              <span className="text-sm text-gray-400">Tech stack: TypeScript, Web3.js, Ethers.js, Node.js, React, GraphQL, Next.js, Docker, Blockchain</span>
             </li>
             <li>
-              <strong>Fivetech Software</strong> – Co-founder & CTO (Dec 2019 – Present)
+              <strong>Fivetech Software</strong> – Co-founder & CTO (Dec 2019 – Present)<br />
+              Co-founded a startup awarded with a European grant, developed a live event conference platform, and now focused on delivering software services.<br />
+              <span className="text-sm text-gray-400">Tech stack: TypeScript, Web3.js, Ethers.js, Node.js, React, GraphQL, Next.js, Docker, Blockchain</span>
             </li>
             <li>
-              <strong>HyperMedia</strong> – Director of Engineering (Feb 2021 – Present)
+              <strong>HyperMedia</strong> – Director of Engineering (Feb 2021 – Present)<br />
+              Managing multiple development teams and projects, engaging with clients and stakeholders, and overseeing project delivery and team performance.
             </li>
             <li>
-              <strong>HyperMedia</strong> – Software Developer (Oct 2015 – Jan 2021)</li>
+              <strong>HyperMedia</strong> – Software Developer (Oct 2015 – Jan 2021)<br />
+              Developed the company’s proprietary video conferencing tool using Node.js, AngularJS, WebRTC, and Kurento Media Server. Contributed to Java and Swift projects as well.
+            </li>
             <li>
-              <strong>Intern at HyperMedia</strong> – (Jul 2015 – Oct 2015)
+              <strong>HyperMedia</strong> – Intern (Jul 2015 – Oct 2015)<br />
+              Learned the fundamentals of JavaScript, HTML, and CSS while supporting frontend development tasks.
             </li>
           </ul>
         </section>
