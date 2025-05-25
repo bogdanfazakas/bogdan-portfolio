@@ -69,6 +69,23 @@ export default function Home() {
           </section>
 
           <section>
+            <h2 className="text-3xl mb-4 border-b border-gray-700 pb-2">🔧 Tools & Gear</h2>
+            <ul className="list-disc list-inside space-y-2">
+              <li>💻 MacBook Pro 14&quot; M3 Pro, 38GB RAM</li>
+              <li>📱 iPhone 16 Pro Max</li>
+              <li>⌨️ Satechi Keyboard & Apple Keyboard</li>
+              <li>🖱️ Logitech MX Master 3 Mouse</li>
+              <li>🖥️ HP 4K Display 27&quot;</li>
+              <li>🎧 AirPods Pro 1 & AirPods Max</li>
+              <li>⌚ Apple Watch Ultra 2</li>
+              <li>🧑‍💻 Visual Studio Code, iTerm, Docker Desktop</li>
+              <li>🔐 Ledger Nano X</li>
+              <li>🤖 ChatGPT+ & Perplexity Pro</li>
+              <li>💬 Slack, Discord, Telegram & Google Workspace</li>
+            </ul>
+          </section>
+
+          <section>
             <h2 className="text-3xl mb-4 border-b border-gray-700 pb-2">📫 Contact</h2>
             <p>Email: <a href="mailto:bogdan.fazakas@gmail.com" className="text-blue-400 hover:underline">bogdan.fazakas@gmail.com</a></p>
             <p>Location: Cluj-Napoca, Romania</p>

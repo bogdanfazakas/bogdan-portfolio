@@ -24,6 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <title>Bogdan Fazakas - Full Stack Engineer</title>
+        <meta name="description" content="Geek personal website Bogdan Fazakas, Full Stack Engineer" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
