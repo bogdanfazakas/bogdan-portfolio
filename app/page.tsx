@@ -2,64 +2,72 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-950 text-white px-4 py-10 font-mono">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-950 to-black text-white px-6 py-12 font-mono">
       <Head>
         <title>Bogdan Fazakas - Full Stack Engineer</title>
         <meta name="description" content="Geek personal website for Bogdan Fazakas, Full Stack JavaScript Engineer" />
       </Head>
 
-      <header className="text-center mb-10">
-        <h1 className="text-4xl font-bold">Bogdan Fazakas</h1>
-        <p className="text-xl mt-2">Full Stack Engineer</p>
-        <div className="mt-2">
-          <a href="mailto:bogdan.fazakas@gmail.com" className="underline text-blue-400 block">bogdan.fazakas@gmail.com</a>
-          <a href="https://www.linkedin.com/in/bogdan-fazakas-1a4b15102/" className="underline text-blue-400 block">LinkedIn</a>
+      <header className="text-center mb-16">
+        <h1 className="text-5xl font-extrabold text-blue-400">Bogdan Fazakas</h1>
+        <p className="text-2xl mt-3 text-gray-300">Full Stack JavaScript Engineer</p>
+        <div className="mt-4 flex justify-center gap-4 text-blue-300">
+          <a href="mailto:bogdan.fazakas@gmail.com" className="hover:underline">bogdan.fazakas@gmail.com</a>
+          <span>|</span>
+          <a href="https://www.linkedin.com/in/bogdan-fazakas-1a4b15102/" target="_blank" className="hover:underline">LinkedIn</a>
         </div>
       </header>
 
-      <main className="max-w-3xl mx-auto space-y-10">
+      <main className="max-w-4xl mx-auto space-y-16">
         <section>
-          <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">💼 Work Experience</h2>
-          <ul className="space-y-4">
-            <li>
-              <strong>Ocean Protocol</strong> – Full Stack JavaScript Engineer (Dec 2020 – Present)<br />
-              Supporting developers in building DApps on the Ocean Protocol stack, developing and maintaining Ocean Protocol Data Marketplace, Ocean Nodes, ocean.js, and ocean-cli.<br />
-              <span className="text-sm text-gray-400">Tech stack: TypeScript, Web3.js, Ethers.js, Node.js, React, GraphQL, Next.js, Docker, Blockchain</span>
-            </li>
-            <li>
-              <strong>Fivetech Software</strong> – Co-founder & CTO (Dec 2019 – Present)<br />
-              Co-founded a startup awarded with a European grant, developed a live event conference platform, and now focused on delivering software services.<br />
-            </li>
-            <li>
-              <strong>HyperMedia</strong> – Director of Engineering (Feb 2021 – Present)<br />
-              Managing multiple development teams and projects, engaging with clients and stakeholders, and overseeing project delivery and team performance.
-            </li>
-            <li>
-              <strong>HyperMedia</strong> – Software Developer (Oct 2015 – Jan 2021)<br />
-              Developed the company’s proprietary video conferencing tool using Node.js, AngularJS, WebRTC, and Kurento Media Server. Contributed to Java and Swift projects as well.<br />
-              <span className="text-sm text-gray-400">Tech stack: TypeScript, WebRTC, Node.js, AngularJS, MongoDB, Docker, SwiftUI, Java, Spring</span>
-            </li>
-            <li>
-              <strong>HyperMedia</strong> – Intern (Jul 2015 – Oct 2015)<br />
-              Learned the fundamentals of JavaScript, HTML, and CSS while supporting frontend development tasks.
-            </li>
+          <h2 className="text-3xl mb-4 border-b border-gray-700 pb-2">💼 Work Experience</h2>
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-xl font-semibold">Ocean Protocol <span className="text-sm font-normal text-gray-400">(Dec 2020 – Present)</span></h3>
+              <p>Part of the development team for Ocean Nodes and the decentralized data marketplace, developer toolings  (ocean.js, ocean-cli), and monitoring analytics services for ocean nodes and compute to data.</p>
+              <p className="text-sm text-gray-400">Stack: TypeScript, Web3.js, Ethers.js, Node.js, React, Express, Encore, Elastic, PostgresSQL GraphQL, Next.js, Docker, Kubernetes, Solidity</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Fivetech Software <span className="text-sm font-normal text-gray-400">(Dec 2019 – Present)</span></h3>
+              <p>Co-founded a software startup, developed a live event platform funded by an EU grant, now providing services across multiple industries.</p>
+              <p className="text-sm text-gray-400">Stack: TypeScript, Node.js, React, Docker, WebRTC, Kurento</p>
+            </div>
+           <div>
+              <h3 className="text-xl font-semibold">HyperMedia – Director of Engineering <span className="text-sm font-normal text-gray-400">(Feb 2023 – Present)</span></h3>
+              <p>Responsible for managing multiple cross-functional teams, project roadmaps, and stakeholder communication.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">HyperMedia – Team Lead & Project Manager <span className="text-sm font-normal text-gray-400">(Jan 2021 – Feb 2023)</span></h3>
+              <p>Led development teams and coordinated project implementation based on enhancements and products derived from the proprietary video conferencing platform.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">HyperMedia – Software Developer <span className="text-sm font-normal text-gray-400">(Oct 2015 – Jan 2021)</span></h3>
+              <p>Architected and developed a proprietary video conferencing platform using WebRTC and Kurento. Worked with AngularJS, NodeJS, and MongoDB, also Java and Swift/ObjectiveC on various internal tools.</p>
+              <p className="text-sm text-gray-400">Stack: Node.js, WebRTC, AngularJS, Kurento, MongoDB, Swift/ObjectiveC, Java, Docker</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">HyperMedia – Intern <span className="text-sm font-normal text-gray-400">(Jul 2015 – Oct 2015)</span></h3>
+              <p>Supported frontend projects while learning JavaScript, HTML, and CSS.</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="text-3xl mb-4 border-b border-gray-700 pb-2">🎓 Education</h2>
+          <ul className="list-disc list-inside space-y-2">
+            <li><strong>Master’s Degree</strong> – Distributed Systems and Computer Networks, Technical University of Cluj-Napoca (2017–2019)</li>
+            <li><strong>Bachelor’s Degree</strong> – Computer Science, Technical University of Cluj-Napoca (2013–2017)</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">🎓 Education</h2>
-          <p><strong>Master’s Degree</strong>, Distributed Systems and Computer Networks, Technical University of Cluj-Napoca (2017–2019)</p>
-          <p><strong>Bachelor’s Degree</strong>, Computer Science, Technical University of Cluj-Napoca (2013–2017)</p>
+          <h2 className="text-3xl mb-4 border-b border-gray-700 pb-2">🛠️ Skills & Tech</h2>
+          <p className="leading-relaxed">Typescript, Node.js, React, GraphQL, Docker, Blockchain, Web3.js, Ethers.js, Next.js, WebRTC, Kurento, SwiftUI, AngularJS, MongoDB, Java, Spring</p>
         </section>
 
         <section>
-          <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">🛠️ Skills & Tech</h2>
-          <p>Typescript, Node.js, React, GraphQL, Docker, Blockchain, Web3.js, Ethers.js, Next.js, WebRTC, Kurento, Ethers.js</p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl mb-2 border-b border-gray-700 pb-1">📫 Contact</h2>
-          <p>Email: bogdan.fazakas@gmail.com</p>
+          <h2 className="text-3xl mb-4 border-b border-gray-700 pb-2">📫 Contact</h2>
+          <p>Email: <a href="mailto:bogdan.fazakas@gmail.com" className="text-blue-400 hover:underline">bogdan.fazakas@gmail.com</a></p>
           <p>Location: Cluj-Napoca, Romania</p>
         </section>
       </main>
