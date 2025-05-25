@@ -23,7 +23,7 @@ export default function Home() {
           <ul className="space-y-4">
             <li>
               <strong>Ocean Protocol</strong> – Full Stack JavaScript Engineer (Dec 2020 – Present)<br />
-              Supporting developers in building DApps on the Ocean Protocol stack, developing and maintaining Ocean's data marketplace, Ocean Nodes, ocean.js, and oceancli.<br />
+              Supporting developers in building DApps on the Ocean Protocol stack, developing and maintaining Ocean Protocol Data Marketplace, Ocean Nodes, ocean.js, and ocean-cli.<br />
               <span className="text-sm text-gray-400">Tech stack: TypeScript, Web3.js, Ethers.js, Node.js, React, GraphQL, Next.js, Docker, Blockchain</span>
             </li>
             <li>
