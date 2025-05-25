@@ -10,7 +10,7 @@ export default function Home() {
 
       <header className="text-center mb-10">
         <h1 className="text-4xl font-bold">Bogdan Fazakas</h1>
-        <p className="text-xl mt-2">Full Stack JavaScript Engineer</p>
+        <p className="text-xl mt-2">Full Stack Engineer</p>
         <div className="mt-2">
           <a href="mailto:bogdan.fazakas@gmail.com" className="underline text-blue-400 block">bogdan.fazakas@gmail.com</a>
           <a href="https://www.linkedin.com/in/bogdan-fazakas-1a4b15102/" className="underline text-blue-400 block">LinkedIn</a>
@@ -36,7 +36,7 @@ export default function Home() {
             </li>
             <li>
               <strong>HyperMedia</strong> – Software Developer (Oct 2015 – Jan 2021)<br />
-              Developed the company’s proprietary video conferencing tool using Node.js, AngularJS, WebRTC, and Kurento Media Server. Contributed to Java and Swift projects as well.
+              Developed the company’s proprietary video conferencing tool using Node.js, AngularJS, WebRTC, and Kurento Media Server. Contributed to Java and Swift projects as well.<br />
               <span className="text-sm text-gray-400">Tech stack: TypeScript, WebRTC, Node.js, AngularJS, MongoDB, Docker, SwiftUI, Java, Spring</span>
             </li>
             <li>
